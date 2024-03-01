@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#hed1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    justify-content: left;
+}
+
+.straniji {
+
+    #a1 {
+    margin-left: 60px;
+    margin-right: 10px;
+
+    }
+    
+    #a2 {
+    margin-right: 10px;
+    }
+
+    #a3 {
+        margin-right: 1px;
+
+
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+}
