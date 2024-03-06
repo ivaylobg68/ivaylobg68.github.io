@@ -1,42 +1,71 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: rgb(80, 189, 233);
+    color: black;
 }
 
-#hed1 {
+h1, h2 {
     text-align: center;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    font-size: 40px;
-    justify-content: left;
+hr {
+    border: 1px solid black;
 }
 
-.straniji {
+#page1, #page1-2, #page1-3, #page1-4 {
+    font-size: 30px;
+    margin-top: 0px;
+}
 
-    #a1 {
-    margin-left: 60px;
-    margin-right: 10px;
+.text1-p1 {
+    display: flex;
 
+    #image1 {
+        float: left;
+        height: 300px;
     }
+}
+
+.text2-p1 {
+    display: flex;
     
-    #a2 {
-    margin-right: 10px;
+    #image2 {
+        float: left;
+        height: 300px;
+        margin-right: 20px;
+    }
+}
+
+.text3-p1 {
+    display: flex;
+    
+    #image3 {
+        float: left;
+        height: 490px;
+        width: 252px;
+        margin-right: 20px;
+    }
+}
+
+.text4-p1 {
+    display: flex;
+
+    #image4 {
+        float: left;
+        height: 400px;
+        margin-right: 20px;
     }
 
-    #a3 {
-        margin-right: 1px;
-
-
+    #page1-4 {
+        font-size: 34px !important;
     }
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    position: static;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(80, 189, 233);
 
 }
