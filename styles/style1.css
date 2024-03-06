@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(80, 189, 233);
+    background-color: #50BDE9;
     color: black;
 }
 
@@ -29,7 +29,7 @@ hr {
 
 .text2-p1 {
     display: flex;
-    
+
     #image2 {
         float: left;
         height: 300px;
@@ -66,6 +66,6 @@ footer {
     position: static;
     width: 100%;
     text-align: center;
-    background-color: rgb(80, 189, 233);
+    background-color: #50BDE9;
 
 }
